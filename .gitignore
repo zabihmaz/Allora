@@ -1,13 +1,26 @@
+# macOS
 .DS_Store
-__pycache__
+
+# Python cache
+__pycache__/
 *.pyc
+
+# Lake cache
 .lake_cache/*
+
+# Logs
 logs/*
+
+# Environment variables
 .env
 keys
-inference-data
-worker-data
-head-data
-lib
+
+# Data folders
+inference-data/
+worker-data/
+head-data/
+
+# Node data folders
 node/worker-01-data/*
 node/source-01-data/*
+lib/
